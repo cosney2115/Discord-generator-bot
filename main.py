@@ -44,7 +44,7 @@ async def on_ready():
     print('-----------------------------')
     print(f'Prefix {prefix}')
     print('-----------------------------')
-    print('Bot ruszy³ aok')
+    print('Bot ruszyÂ³ aok')
     print('-----------------------------')
     while True:
         await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.watching,
@@ -264,7 +264,7 @@ async def on_message(message):
 async def shop(ctx):
     embed = discord.Embed(
         title="Shop",
-        description="> Generator\n * Premium Month - 2€\n * Premium Lifetime - 5€\n * Deluxe MONTH - 6€\n * Deluxe LIFETIME - 10€\n\n > ACCOUNTS\n * CurioSityStream - 0.25€\n * Crunchyroll - 0.25€\n * Paramount+ - 0.25€\n * Funimation - 0.25€\n * CreditCard - 0.25€\n * MediaFire - 0.25€\n * NordVPN - 0.25€\n * Disney+ - 0.25€\n * Canal+ - 0.25€\n * Ubisoft - 0.25€\n * Deezer - 0.25€\n * Origin - 0.25€\n * Gfuel - 0.25€\n * Nba - 0.25€\n\n> More Soon",
+        description="> Generator\n * Premium Month - 2Â€\n * Premium Lifetime - 5Â€\n * Deluxe MONTH - 6Â€\n * Deluxe LIFETIME - 10Â€\n\n > ACCOUNTS\n * CurioSityStream - 0.25Â€\n * Crunchyroll - 0.25Â€\n * Paramount+ - 0.25Â€\n * Funimation - 0.25Â€\n * CreditCard - 0.25Â€\n * MediaFire - 0.25Â€\n * NordVPN - 0.25Â€\n * Disney+ - 0.25Â€\n * Canal+ - 0.25Â€\n * Ubisoft - 0.25Â€\n * Deezer - 0.25Â€\n * Origin - 0.25Â€\n * Gfuel - 0.25Â€\n * Nba - 0.25Â€\n\n> More Soon",
         color=discord.Color.from_rgb(112, 105, 109)
     )
     await ctx.author.send(embed=embed, delete_after=30)
@@ -294,7 +294,7 @@ async def on_member_update(before, after):
     #embed = discord.Embed(description=message, color=discord.Color.from_rgb(112, 105, 109))
     #embed.set_author(name=username, icon_url=avatar_url)
 
-    #webhook_url = 'https://discord.com/api/webhooks/1125631444673380463/x_2HbfqaGecTIUBkTQvkCAHeXx9P5nxmX6Mhx1KvCsZxUS9k-yaxdlApIEJYhbPqS9St'
+    #webhook_url = ''
     #data = {'embeds': [embed.to_dict()]}
 
     #response = requests.post(webhook_url, json=data)
@@ -1160,7 +1160,7 @@ async def on_message(message):
     if message.author == bot.user:
         return
     
-    komendy = ["zjeb", "peda³", "pedal", "cwel"]
+    komendy = ["zjeb", "pedaÂ³", "pedal", "cwel"]
     
     if message.content.lower() in komendy:
         await message.channel.send("<@!406941383434174464>")
@@ -1194,7 +1194,7 @@ async def info(ctx):
 
     embed = discord.Embed(
         title="GEN COMMANDS",
-        description="```/gen        [SERVICE]             10 Minutes » Cooldown```\n\n"
+        description="```/gen        [SERVICE]             10 Minutes Â» Cooldown```\n\n"
                     "```\n"
                     "                     COMMANDS\n"
                     "```\n\n"
