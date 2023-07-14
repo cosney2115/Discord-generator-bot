@@ -50,7 +50,7 @@
         ]
     },
     "notification_channel_id": 1121480755701354646,
-    "token": "xd",
+    "token": "your token bot",
     "channel_type": "stock",
     "nordpremium": 72,
     "sithpremium": 54,
@@ -59,7 +59,7 @@
     "boost": 1116351318009847940,
     "owner_id": 1040380942717562890,
     "join": 1124883180839784458,
-    "webhook_url": "xd",
+    "webhook_url": "your webhook url",
     "legit_channel_id": 1125193017763037336,
     "stock_message_id": 1126338055486312478,
     "premium": {
