@@ -1,0 +1,89 @@
+{
+    "channels": {
+        "premium": {
+            "channel_id": 1125190930681581598,
+            "categories": [
+                "nordpremium",
+                "sithpremium",
+                "disney"
+            ]
+        },
+        "free": {
+            "channel_id": 1125207085869699112,
+            "categories": [
+                "nordvpn",
+                "sithfree"
+            ]
+        },
+        "diamond": {
+            "channel_id": 1116351318009847940,
+            "categories": []
+        }
+    },
+    "categories": {
+        "nordpremium": [
+            "premium/nord.txt"
+        ],
+        "sithpremium": [
+            "premium/2x.txt"
+        ],
+        "nordvpn": [
+            "free/x.txt"
+        ],
+        "disney": [
+            "premium/disney.txt"
+        ],
+        "sithfree": [
+            "free/nord.txt"
+        ]
+    },
+    "stock_channel_id": 1116170609332850699,
+    "stock_sections": {
+        "premium": [
+            "nordpremium",
+            "sithpremium",
+            "disney"
+        ],
+        "free": [
+            "nordvpn",
+            "sithfree"
+        ]
+    },
+    "notification_channel_id": 1121480755701354646,
+    "token": "xd",
+    "channel_type": "stock",
+    "nordpremium": 72,
+    "sithpremium": 54,
+    "nordvpn": 54,
+    "sithfree": 72,
+    "boost": 1116351318009847940,
+    "owner_id": 1040380942717562890,
+    "join": 1124883180839784458,
+    "webhook_url": "xd",
+    "legit_channel_id": 1125193017763037336,
+    "stock_message_id": 1126338055486312478,
+    "premium": {
+        "accounts/nord.txt": 73,
+        "accounts/2x.txt": 1,
+        "nord": 80,
+        "2x": 5,
+        "accounts/nord": 19,
+        "accounts/2x": 41,
+        "accounts/disney.txt": 1,
+        "diney": 1,
+        "accounts/disney": 3,
+        "premium/nord": 17,
+        "premium/2x": 8,
+        "premium/disney": 5
+    },
+    "free": {
+        "accounts/x.txt": 4,
+        "accounts/nord.txt": 73,
+        "x": 39,
+        "nordvpn": 80,
+        "accounts/x": 44,
+        "accounts/nord": 19,
+        "free/x": 50,
+        "free/nord": 17
+    }
+}
